@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegressionstestTestDataReader", "RegressionstestTestDataReader\RegressionstestTestDataReader.csproj", "{FBF751C0-6033-4899-A615-1ED6D06AF1C6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D0D0D254-ACC5-4692-BDC6-DDC217D14134} = {D0D0D254-ACC5-4692-BDC6-DDC217D14134}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestDataReaders", "TestDataReaders\TestDataReaders\TestDataReaders.csproj", "{D0D0D254-ACC5-4692-BDC6-DDC217D14134}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBF751C0-6033-4899-A615-1ED6D06AF1C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF751C0-6033-4899-A615-1ED6D06AF1C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF751C0-6033-4899-A615-1ED6D06AF1C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF751C0-6033-4899-A615-1ED6D06AF1C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0D0D254-ACC5-4692-BDC6-DDC217D14134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0D0D254-ACC5-4692-BDC6-DDC217D14134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0D0D254-ACC5-4692-BDC6-DDC217D14134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0D0D254-ACC5-4692-BDC6-DDC217D14134}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F04BC0B-5BAB-4283-B2E8-1A4F0402FAA7}
+	EndGlobalSection
+EndGlobal
